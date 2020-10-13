@@ -10,14 +10,24 @@
     </head>
     <body>
         <header>
-            <img src="images/house.png"/>
             <h1>Real Estate Search</h1>
             <div id="SearchArea">
-                <select id="Location">
+                <select id="LocationInput">
                     <option selected hidden disabled>select a city</option>
                     <option value="CPT">Cape Town</option>
                     <option value="JHB">Johannesburg</option>
                     <option value="DBN">Durban</option>
+                </select>
+                <select id="PropertyTypeInput">
+                    <option selected hidden disabled>select a property type</option>
+                    <option value="House">House</option>
+                    <option value="Apartment">Apartment</option>
+                </select>
+                <select id="BedroomInput">
+                    <option selected hidden disabled>number of bedrooms</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
                 </select>
             </div>
         </header>
