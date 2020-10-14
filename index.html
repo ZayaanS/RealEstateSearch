@@ -12,11 +12,15 @@
         <header>
             <h1>Real Estate Search</h1>
             <div id="SearchArea">
+                <select id="OfferTypeInput">
+                    <option selected hidden disabled>select offer type</option>
+                    <option value="Sale">Sale</option>
+                    <option value="Rent">Rent</option>
+                </select>
                 <select id="LocationInput">
                     <option selected hidden disabled>select a city</option>
-                    <option value="CPT">Cape Town</option>
-                    <option value="JHB">Johannesburg</option>
-                    <option value="DBN">Durban</option>
+                    <option value="East">East Greenfield</option>
+                    <option value="West">West Greenfield</option>
                 </select>
                 <select id="PropertyTypeInput">
                     <option selected hidden disabled>select a property type</option>
@@ -29,12 +33,16 @@
                     <option value=3>3</option>
                     <option value=4>4</option>
                 </select>
+                <select id="PriceInput">
+                    <option selected hidden disabled>select max price</option>
+                    <option>$300 000</option>
+                    <option>$400 000</option>
+                    <option>$500 000</option>
+                </select>
             </div>
         </header>
         <div id="PropertiesDiv">
-            <h1>Properties On Showwwwwww</h1>
+           
         </div>
-        
-        
     </body>
 </html>
