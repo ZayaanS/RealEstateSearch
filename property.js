@@ -4,9 +4,9 @@ let propertyArray = [
         "PropertyId" : 0,
         "PropertyType" : "house",
         "OfferType" : "sale",
-        "Price" : 8350000,
+        "Price" : 300500,
         "Bedrooms" : 4,
-        "Location" : "Cape Town",
+        "Location" : "East Greenfield",
         "Image" : "images/house0.jpg",
         "Title" : "Modern family home"
     },
@@ -179,6 +179,9 @@ let selectedPropertyType = document.getElementById("PropertyTypeInput").value;
 let selectedBedrooms = document.getElementById("BedroomInput").value;
 let selectedPrice = document.getElementById("PriceInput").value;
 
+//property div
+let propertyDiv = document.getElementById("PropertiesDiv");
+
 //create array called FilteredProperties that contains the properties that meet selected criteria
 var FilteredProperties = propertyArray.filter(function(property){
     if (property.location === selectedLocation && 
@@ -190,5 +193,24 @@ var FilteredProperties = propertyArray.filter(function(property){
     }
   });
 
-  //if filteredproperties has properties in it, display them in cards, else display message
-  
+//if filteredproperties has properties in it, display them in cards, else display message
+if (FilteredProperties.length > 0){
+    //clear properties div
+    propertyDiv.innerHTML = "";
+    //add all filtered properties to div
+    for (let i = 0; i < FilteredProperties.length; i++){
+        //create property card for each property
+        propertyDiv.innerHTML = `<div class='propertyCard' >
+                                    <img src='${FilteredProperties[i].Image}' />
+                                    <h1>${FilteredProperties[i].Title}</h1>
+                                    <p>${FilteredProperties[i].location}</p>
+                                    <h2>$${FilteredProperties[i].Price}</h2>
+                                    <hr/>
+                                    <h4>${FilteredProperties[i].Bedrooms} bedrooms</h4>
+                                 </div>`;
+    }
+}
+else{
+    propertyDiv.innerHTML = `<p>There are no properties that match these criteria.</p>`
+}
+
