@@ -29,17 +29,17 @@ header .heading{
     line-height: 100px;
 }
 #SearchArea{
-    background-color: #d9cba9;
+    background-color: #595353;
     padding: 20px 30px;
     text-align: center;
-    width: 70%;
-    margin-left: 15%;
+    width: 90%;
+    margin: auto;
     margin-top: -7vh;
     border-radius: 6px;
 }
 select{
     height: 50px;
-    width: 200px;
+    width: 250px;
     border-radius: 6px;
     border: solid 0.5px #ffffff;
     font-family: inherit;
@@ -48,17 +48,44 @@ select{
     font-size: 16px;
     margin: 5px;
     background-color: transparent;
-    color: #2f3035;
+    color: #ffffff;
 }
 #PropertiesDiv{
     display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 50px 7vw;
 }
 .propertyCard{
     height: 400px;
-    width: 300px;
+    width: 20%;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.propertyCard:nth-child(4n){
+    margin-right: 0;
 }
 .propertyCard img{
     height: 50%;
+}
+footer{
+    background-color: #595353;
+    height: 160px;
+    width: 100%;
+}
+h1, p, h2, h4{
+    padding: 0;
+    line-height: 15px;
+}
+.cardText{
+    padding: 2vh;
+}
+.cardText h1{
+    font-size: 24px;
 }

@@ -2,9 +2,9 @@
 let propertyArray = [
     {
         "PropertyId" : 0,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 300500,
+        "PropertyType" : "House",
+        "OfferType" : "Sale",
+        "Price" : 400500,
         "Bedrooms" : 4,
         "Location" : "East Greenfield",
         "Image" : "images/house0.jpg",
@@ -12,205 +12,185 @@ let propertyArray = [
     },
     {
         "PropertyId" : 1,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
+        "PropertyType" : "Apartment",
+        "OfferType" : "Rent",
+        "Price" : 1905,
+        "Bedrooms" : 2,
+        "Location" : "East Greenfield",
+        "Image" : "images/apartment0.jpg",
+        "Title" : "Spacious Apartment"
     },
     {
         "PropertyId" : 2,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
+        "PropertyType" : "House",
+        "OfferType" : "Sale",
+        "Price" : 300500,
+        "Bedrooms" : 3,
+        "Location" : "West Greenfield",
+        "Image" : "images/house1.jpg",
         "Title" : "Modern family home"
     },
     {
         "PropertyId" : 3,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
+        "PropertyType" : "Apartment",
+        "OfferType" : "Rent",
+        "Price" : 2905,
+        "Bedrooms" : 3,
+        "Location" : "West Greenfield",
+        "Image" : "images/apartment1.jpg",
+        "Title" : "Spacious Apartment"
     },
     {
         "PropertyId" : 4,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
+        "PropertyType" : "House",
+        "OfferType" : "Sale",
+        "Price" : 500500,
+        "Bedrooms" : 5,
+        "Location" : "East Greenfield",
+        "Image" : "images/house2.jpg",
         "Title" : "Modern family home"
     },
     {
         "PropertyId" : 5,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
+        "PropertyType" : "Apartment",
+        "OfferType" : "Rent",
+        "Price" : 3400,
+        "Bedrooms" : 3,
+        "Location" : "East Greenfield",
+        "Image" : "images/apartment2.jpg",
+        "Title" : "Spacious Apartment"
     },
     {
         "PropertyId" : 6,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
+        "PropertyType" : "House",
+        "OfferType" : "Sale",
+        "Price" : 500500,
+        "Bedrooms" : 5,
+        "Location" : "Wast Greenfield",
+        "Image" : "images/house3.jpg",
         "Title" : "Modern family home"
     },
     {
         "PropertyId" : 7,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
+        "PropertyType" : "Apartment",
+        "OfferType" : "Rent",
+        "Price" : 3905,
         "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
+        "Location" : "East Greenfield",
+        "Image" : "images/apartment3.jpg",
+        "Title" : "Spacious Apartment"
     },
     {
         "PropertyId" : 8,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
+        "PropertyType" : "House",
+        "OfferType" : "Sale",
+        "Price" : 200500,
+        "Bedrooms" : 2,
+        "Location" : "West Greenfield",
+        "Image" : "images/house4.jpg",
         "Title" : "Modern family home"
     },
     {
         "PropertyId" : 9,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
+        "PropertyType" : "Apartment",
+        "OfferType" : "Rent",
+        "Price" : 2905,
+        "Bedrooms" : 3,
+        "Location" : "West Greenfield",
+        "Image" : "images/apartment4.jpg",
+        "Title" : "Spacious Apartment"
     },
     {
         "PropertyId" : 10,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
+        "PropertyType" : "House",
+        "OfferType" : "Sale",
+        "Price" : 300500,
+        "Bedrooms" : 3,
+        "Location" : "East Greenfield",
+        "Image" : "images/house5.jpg",
         "Title" : "Modern family home"
     },
     {
         "PropertyId" : 11,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
+        "PropertyType" : "Apartment",
+        "OfferType" : "Rent",
+        "Price" : 3400,
+        "Bedrooms" : 3,
+        "Location" : "West Greenfield",
+        "Image" : "images/apartment5.jpg",
+        "Title" : "Spacious Apartment"
     },
     {
         "PropertyId" : 12,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
+        "PropertyType" : "House",
+        "OfferType" : "Sale",
+        "Price" : 400500,
         "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
+        "Location" : "East Greenfield",
+        "Image" : "images/house6.jpg",
         "Title" : "Modern family home"
     },
     {
         "PropertyId" : 13,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
+        "PropertyType" : "House",
+        "OfferType" : "Sale",
+        "Price" : 500500,
+        "Bedrooms" : 5,
+        "Location" : "West Greenfield",
+        "Image" : "images/house7.jpg",
         "Title" : "Modern family home"
     },
-    {
-        "PropertyId" : 14,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
-    },
-    {
-        "PropertyId" : 15,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
-    },
-    {
-        "PropertyId" : 16,
-        "PropertyType" : "house",
-        "OfferType" : "sale",
-        "Price" : 8350000,
-        "Bedrooms" : 4,
-        "Location" : "Cape Town",
-        "Image" : "images/house0.jpg",
-        "Title" : "Modern family home"
-    }
 ];
 
-//input from dropdowns
-let selectedLocation = document.getElementById("LocationInput").value;
-let selectedOfferType = document.getElementById("OfferTypeInput").value;
-let selectedPropertyType = document.getElementById("PropertyTypeInput").value;
-let selectedBedrooms = document.getElementById("BedroomInput").value;
-let selectedPrice = document.getElementById("PriceInput").value;
+function DisplayProperties(){
+    //get property div
+    let propertyDiv = document.getElementById("PropertiesDiv");
+    //input from dropdowns
+    let selectedOfferType = document.getElementById("OfferTypeInput").value;
+    let selectedPropertyType = document.getElementById("PropertyTypeInput").value;
+    let selectedBedrooms = document.getElementById("BedroomInput").value;
+    let selectedPrice = document.getElementById("PriceInput").value;
+    let selectedLocation = document.getElementById("LocationInput").value;
 
-//property div
-let propertyDiv = document.getElementById("PropertiesDiv");
+    //array for filtered properties
+    //Initially have it the same as all properties so that all display on inital loading of page
+    let FilteredProperties = propertyArray;
 
-//create array called FilteredProperties that contains the properties that meet selected criteria
-var FilteredProperties = propertyArray.filter(function(property){
-    if (property.location === selectedLocation && 
-        property.OfferType === selectedOfferType && 
-        property.PropertyType === selectedPropertyType &&
-        property.Bedrooms === selectedBedrooms &&
-        property.Price < Number(selectedPrice) ){
-      return property;
-    }
-  });
-
-//if filteredproperties has properties in it, display them in cards, else display message
-if (FilteredProperties.length > 0){
-    //clear properties div
+    //fill array with filtered properties
+    FilteredProperties = propertyArray.filter(function(property){
+        if (
+            (selectedOfferType == property.OfferType || selectedOfferType == "any") && 
+            (selectedPropertyType == property.PropertyType || selectedPropertyType == "any") &&
+            (selectedPrice >= property.Price || selectedPrice == "any") &&
+            (selectedBedrooms <= property.Bedrooms || selectedBedrooms == "any") &&
+            (selectedLocation == property.Location || selectedLocation == "any")
+            ){
+            return property;
+        }
+    })
+    //clear existing cards
     propertyDiv.innerHTML = "";
-    //add all filtered properties to div
-    for (let i = 0; i < FilteredProperties.length; i++){
-        //create property card for each property
-        propertyDiv.innerHTML = `<div class='propertyCard' >
-                                    <img src='${FilteredProperties[i].Image}' />
-                                    <h1>${FilteredProperties[i].Title}</h1>
-                                    <p>${FilteredProperties[i].location}</p>
-                                    <h2>$${FilteredProperties[i].Price}</h2>
-                                    <hr/>
-                                    <h4>${FilteredProperties[i].Bedrooms} bedrooms</h4>
-                                 </div>`;
+
+    //if statement to display cards if there are cards to display, else show message
+    if (FilteredProperties.length > 0){
+        //create cards for filtered properties
+        for (let i = 0; i < FilteredProperties.length; i++){
+            //create property card for each property
+            propertyDiv.innerHTML += `<div class='propertyCard' >
+            <img src='${FilteredProperties[i].Image}' />
+            <div class='cardText'>
+            <h1>${FilteredProperties[i].Title}</h1>
+            <p>${FilteredProperties[i].Location}</p>
+            <h2>$${FilteredProperties[i].Price}</h2>
+            <hr/>
+            <h4>${FilteredProperties[i].Bedrooms} bedrooms</h4>
+            </div>
+            </div>`;
+        }
     }
-}
-else{
-    propertyDiv.innerHTML = `<p>There are no properties that match these criteria.</p>`
+    else{
+        propertyDiv. innerHTML = "No properties match this search."
+    }
+
 }
 

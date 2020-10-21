@@ -8,45 +8,52 @@
         <!-- Icon -->
         <link rel='icon' href='images/house.png' type='image/x-icon' />
     </head>
-    <body>
+    <body onload="DisplayProperties()">
         <!-- Header -->
         <header>
             <h1 class="heading">Greenfield<br/>Real Estate</h1>
         </header>
         <!-- Search Area -->
         <div id="SearchArea">
-            <select id="OfferTypeInput">
-                <option selected hidden disabled>Offer Type</option>
+            <select id="OfferTypeInput" onchange="DisplayProperties()">
+                <option value="any" selected>Any Offer Type</option>
                 <option value="Sale">Sale</option>
                 <option value="Rent">Rent</option>
             </select>
-            <select id="LocationInput">
-                <option selected hidden disabled>Area</option>
+            <select id="LocationInput" onchange="DisplayProperties()">
+                <option value="any" selected>Any Area</option>
                 <option value="East Greenfield">East Greenfield</option>
                 <option value="West Greenfield">West Greenfield</option>
             </select>
-            <select id="PropertyTypeInput">
-                <option selected hidden disabled>Property Type</option>
+            <select id="PropertyTypeInput" onchange="DisplayProperties()">
+                <option value="any" selected>Any Property Type</option>
                 <option value="House">House</option>
                 <option value="Apartment">Apartment</option>
             </select>
-            <select id="BedroomInput">
-                <option selected hidden disabled>Number of Bedrooms</option>
-                <option value=2>2</option>
-                <option value=3>3</option>
-                <option value=4>4</option>
+            <select id="BedroomInput" onchange="DisplayProperties()">
+                <option value="any" selected>Any Number of Bedrooms</option>
+                <option value=2 > 2 + </option>
+                <option value=3 > 3 + </option>
+                <option value=4 > 4 + </option>
+                <option value=4 > 5 + </option>
             </select>
-            <select id="PriceInput">
-                <option selected hidden disabled>Max Price</option>
-                <option>$300 000</option>
-                <option>$400 000</option>
-                <option>$500 000</option>
+            <select id="PriceInput" onchange="DisplayProperties()">
+                <option value="any" selected > Any Max Price </option>
+                <option value="2000"> $2000 p/m </option>
+                <option value="3000"> $3000 p/m </option>
+                <option value="4000"> $4000 p/m </option>
+                <option value=300000 > $300 000 </option>
+                <option value=400000 > $400 000 </option>
+                <option value=500000 > $500 000 </option>
+                <option value=600000 > $600 000 </option>
             </select>
         </div>
         <!-- Properties Div -->
-        <div id="PropertiesDiv">
-           
-        </div>
+        <div id="PropertiesDiv"></div>
+
+        <!-- Footer -->
+        <footer></footer>
+        
         <script type="text/javascript" src="property.js"></script>
     </body>
 </html>
