@@ -29,13 +29,11 @@ header .heading{
     line-height: 100px;
 }
 #SearchArea{
-    background-color: #595353;
+    background-color: #76ab55;
     padding: 20px 30px;
     text-align: center;
-    width: 90%;
-    margin: auto;
+    width: 100%;
     margin-top: -7vh;
-    border-radius: 6px;
 }
 select{
     height: 50px;
@@ -48,7 +46,7 @@ select{
     font-size: 16px;
     margin: 5px;
     background-color: transparent;
-    color: #ffffff;
+    color: #262727;
 }
 #PropertiesDiv{
     display: flex;
@@ -73,6 +71,7 @@ select{
 }
 .propertyCard img{
     height: 50%;
+    border-radius: 6px 6px 0 0;
 }
 footer{
     background-color: #595353;
