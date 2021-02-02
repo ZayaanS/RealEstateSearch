@@ -176,14 +176,18 @@ function DisplayProperties(){
         //create cards for filtered properties
         for (let i = 0; i < FilteredProperties.length; i++){
             //create property card for each property
-            propertyDiv.innerHTML += `<div class='propertyCard' >
+            propertyDiv.innerHTML += `
+            <div class='col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3'>
+            <div class='propertyCard' >
+            <div class='OfferTypeSticker'>${FilteredProperties[i].OfferType}</div>
             <img src='${FilteredProperties[i].Image}' />
             <div class='cardText'>
-            <h1>${FilteredProperties[i].Title}</h1>
+            <h3>${FilteredProperties[i].Title}</h3>
             <p>${FilteredProperties[i].Location}</p>
-            <h2>$${FilteredProperties[i].Price}</h2>
+            <h4>$${FilteredProperties[i].Price}</h4>
             <hr/>
-            <h4>${FilteredProperties[i].Bedrooms} bedrooms</h4>
+            <h6>${FilteredProperties[i].Bedrooms} bedrooms</h6>
+            </div>
             </div>
             </div>`;
         }
